@@ -69,3 +69,49 @@ body{
 	left: 34px;
 	top:10px;
 }
+
+#torso,
+#belly {
+	margin: 0 auto;
+	height: 200px;
+	width: 180px;
+	background: #fff;
+	border-radius: 47%;
+
+	/*设置边框*/
+	border: 5px solid #e0e0e0;
+	border-top: none;
+	z-index: 1;
+}
+
+#belly {
+	height: 300px;
+	width: 245px;
+	margin-top: -140px;
+	z-index: 5;
+}
+
+#cover {
+	width: 190px;
+	background: #fff;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	top: -20px;
+	border-radius: 50%;
+}
+
+#heart{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	position: relative;
+
+	/*向边框四周添加阴影效果*/
+	box-shadow: 2px 5px 2px #ccc inset;
+
+	right:-115px;
+	top: 40px;
+	z-index: 111;
+	border:1px solid #ccc;
+}
